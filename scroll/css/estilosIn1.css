@@ -9,3 +9,13 @@ html {
 *::before {
     box-sizing: inherit;
 }
+
+
+
+[id]{
+	scroll-margin-top:0px;
+}
+
+[id]:target{
+	top: 0;
+}
